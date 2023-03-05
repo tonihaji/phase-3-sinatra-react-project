@@ -1,0 +1,21 @@
+current directory: /home/moringa/Desktop/Development/code/Phase-2/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/psych-3.3.4/ext/psych
+/home/moringa/.rvm/rubies/ruby-2.7.4/bin/ruby -I /home/moringa/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20230305-31924-sw39f0.rb extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /home/moringa/Desktop/Development/code/Phase-2/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/psych-3.3.4/ext/psych
+make "DESTDIR=" clean
+
+current directory: /home/moringa/Desktop/Development/code/Phase-2/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/psych-3.3.4/ext/psych
+make "DESTDIR="
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/moringa/Desktop/Development/code/Phase-2/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/psych-3.3.4/ext/psych
+make "DESTDIR=" install
+/usr/bin/install -m 0755 psych.so ./.gem.20230305-31924-1xlkejv
