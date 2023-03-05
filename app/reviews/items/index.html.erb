@@ -1,9 +1,10 @@
-<table>
+
+     <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Price</th>
-      <th>Status Pay</th>
+      <th>Model</th>
+      <th>Rating</th>
       <th>Image</th>
     </tr>
   </thead>
@@ -11,10 +12,10 @@
     <% @items.each do |item| %>
       <tr>
         <td><%= item.name %></td>
-        <td><%= item.price %></td>
-        <td><%= item.status_pay %></td>
+        <td><%= item.model %></td>
+        <td><%= item.rating %></td>
         <td><%= image_tag item.image_url %></td>
       </tr>
     <% end %>
   </tbody>
-</table>
+</table> 

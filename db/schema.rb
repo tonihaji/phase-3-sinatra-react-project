@@ -13,7 +13,12 @@
 ActiveRecord::Schema.define(version: 2023_03_04_192904) do
 
   create_table "carts", force: :cascade do |t|
+    t.string "item_id"
     t.integer "user_id"
+    t.string "name"
+    t.integer "price"
+    t.string "status_pay"
+    t.string "image_url"
   end
 
   create_table "items", force: :cascade do |t|
@@ -21,13 +26,15 @@ ActiveRecord::Schema.define(version: 2023_03_04_192904) do
     t.integer "price"
     t.string "status_pay"
     t.string "image_url"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "riders", force: :cascade do |t|
     t.string "name"
     t.string "model"
     t.string "rating"
-    t.string "avatar"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

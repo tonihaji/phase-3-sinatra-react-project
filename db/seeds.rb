@@ -6,8 +6,8 @@ user1 = User.create(name: "John Doe", email: "johndoe@example.com")
 user2 = User.create(name: "Jane Smith", email: "janesmith@example.com")
 
 # Create some riders
-rider1 = Rider.create(name: "Bob", model: "Honda", rating: "4.5")
-rider2 = Rider.create(name: "Alice", model: "Yamaha", rating: "4.7")
+rider1 = Rider.create(name: "Bob", model: "Honda", rating: "4.5",image_url:"avator.jpeg")
+rider2 = Rider.create(name: "Alice", model: "Yamaha", rating: "4.7",image_url:"avator.jpeg")
 # avatar:"https://rb.gy/oelvjz"
 # avatar:"https://rb.gy/oelvjz"
 # Create some bikes

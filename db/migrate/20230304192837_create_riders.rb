@@ -4,7 +4,7 @@ class CreateRiders < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :model
       t.string :rating
-      t.string :avatar
+      t.string :image_url
       
       t.timestamps
     end
